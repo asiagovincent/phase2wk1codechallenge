@@ -21,4 +21,7 @@ const TransactionTable = ({ transactions }) => {
   );
 };
 
+
+
 export default TransactionTable;
+
