@@ -11,7 +11,7 @@ const App = () => {
 
   useEffect(() => {
     // Fetch data from your local server
-    fetch('http://localhost:3000/transactions')
+    fetch('https://my-json-server.typicode.com/asiagovincent/phase2wk1codechallenge/transactions')
       .then((response) => response.json())
       .then((data) => {
         setTransactions(data);
